@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+}
+.header {
+  background-color: #ADD8E6; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 1rem 3rem; */
+  height: 58.76px;
+  width: 1002.34px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #000; 
+  
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-item {
+  color: #000; 
+  text-decoration: none;
+  margin: 0 1rem;
+  border-right: 1px solid #000;
+  padding-right: 1rem;
+  
+}
+
+.nav-item:last-child {
+  border-right: none;
+}
+
+.register-btn {
+  background-color: #008000; 
+  color: #FFF;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-section {
+  width: 1002.34px;
+  height: 416.95px;
+  padding: 40px;
+  
+  box-sizing: border-box;
+}
+.main-section h1{
+  font-size: 60px ;
+  padding: 20px;
+}
+.main-section p {
+ margin-bottom: 50px;
+ padding-inline-start: 30px;
+}
+.clients-section{
+  width: 1002.34px;
+  height: 132.92px;
+  text-align: center;
+}
+.community-section{
+  text-align: center;
+  width: 1002.34px;
+  height: 291.8px;
+}
+
+
+.info-blocks{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+}
+.info-block{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  justify-content: center;
+  column-gap: 5px;
+  height: 182.1px;
+  width: 208.12px;
+  margin: 3% 10%;
+}
+.info-block h3{
+  
+  height: 185.85;
+  width: 101.12;
+  /* padding: 1%; */
+  /* overflow: hidden;  */
+  text-overflow: ellipsis;
+  text-align: center;
+  
+}
+.info-block p{
+  height: 42px;
+  width: 174.71px;
+  margin: 10px;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+  font-size: x-small;
+  text-align: center ;
+  display: flex;
+  align-content: center;
+}
